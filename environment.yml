@@ -1,0 +1,13 @@
+name: ndufaf6-dms-analysis
+
+channels:
+ - conda-forge
+ - bioconda
+
+dependencies:
+ - python=3.10
+ - ipykernel
+ - biopython=1.81
+ - altair=4.2.2
+ - pandas=1.5.3
+ - snakemake=7.22.0

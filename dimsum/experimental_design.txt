@@ -1,0 +1,16 @@
+sample_name	experiment_replicate	selection_id	selection_replicate	technical_replicate	pair1	pair2
+input1a1	1	0				
+input1b1	2	0				
+input2a1	3	0				
+input2b1	4	0				
+input2c1	5	0				
+output1a1	1	1	1			
+output1a2	1	1	2			
+output1b1	2	1	1			
+output1b2	2	1	2			
+output2a1	3	1	1			
+output2a2	3	1	2			
+output2b1	4	1	1			
+output2b2	4	1	2			
+output2c1	5	1	1			
+output2c2	5	1	2			
