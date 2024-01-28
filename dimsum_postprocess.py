@@ -3,7 +3,7 @@ import pandas as pd
 
 def main():
     POSITION_OFFSET = 44
-
+https://github.com/AYSung/af6-dms/blob/revision-update/dimsum_postprocess.py
     combined_fitness_data = (
         pd.read_table('dimsum/ndufaf6_dms/fitness_singles.txt', sep=' ')[
             ['Pos', 'WT_AA', 'Mut', 'fitness', 'sigma']
@@ -15,7 +15,7 @@ def main():
         .loc[lambda x: x.position != 116]
     )
 
-    combined_fitness_data.to_csv('dms_fitness.txt', sep='\t', index=False)
+    combined_fitness_data.to_csv('data/dms_fitness.txt', sep='\t', index=False)
 
 
 if __name__ == '__main__':
