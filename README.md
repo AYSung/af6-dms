@@ -55,4 +55,4 @@
 5. Run `dimsum_postprocess.py` with `python dimsum_postprocess.py` to produce the final `dms_fitness.txt` file in the `data` directory.
 
 ## Gaussian Mixture Model analysis
-The Jupyter notebook file `gmm_analysis.ipynb` contains the code used to generate the Gaussian Mixture Model and subsequent calculations of probability of abnormal function. Running this notebook will generate the `dms_fitness_gmm.txt` file, which corresponds to Supplemental Table S1.
+The Jupyter notebook file `gmm_analysis.ipynb` contains the code used to generate the Gaussian Mixture Model and subsequent calculations of probability of abnormal function. Running this notebook will generate the `dms_fitness_gmm.txt` file in the `data` directory, which corresponds to Supplemental Table S1.
