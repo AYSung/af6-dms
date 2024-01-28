@@ -3,6 +3,7 @@ import pandas as pd
 
 def main():
     POSITION_OFFSET = 44
+    
     combined_fitness_data = (
         pd.read_table('dimsum/ndufaf6_dms/fitness_singles.txt', sep=' ')[
             ['Pos', 'WT_AA', 'Mut', 'fitness', 'sigma']
