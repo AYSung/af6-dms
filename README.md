@@ -52,4 +52,7 @@
 2. Navigate to the `dimsum/` directory.
 3. Run the `run_dimsum.sh` script with `sh run_dimsum.sh`.
 4. Activate the `af6-dms` environment again with `conda activate af6-dms`.
-5. Run `dimsum_postprocess.py` with `python dimsum_postprocess.py` to produce the final `dms_fitness.txt` file.
+5. Run `dimsum_postprocess.py` with `python dimsum_postprocess.py` to produce the final `dms_fitness.txt` file in the `data` directory.
+
+## Gaussian Mixture Model analysis
+The Jupyter notebook file `gmm_analysis.ipynb` contains the code used to generate the Gaussian Mixture Model and subsequent calculations of probability of abnormal function. Running this notebook will generate the `dms_fitness_gmm.txt` file in the `data` directory, which corresponds to Supplemental Table S1.
